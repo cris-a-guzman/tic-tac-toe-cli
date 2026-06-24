@@ -1,0 +1,15 @@
+
+ROJO = "\033[91m"
+BLANCO = "\033[97m"
+AZUL= "\033[94m"
+VERDE = "\033[92m"
+AMARILLO = "\033[93m"
+GRIS = "\033[90m"
+CIAN = "\033[96m"
+RESET = "\033[0m"
+
+print(f"{CIAN} COLUMNAS {RESET}")
+print(f"{AMARILLO} JUGADOR O {RESET}")
+print(f"{VERDE} JUGADOR X {RESET}")
+print(f"{AZUL} FILAS {RESET}")
+

@@ -25,8 +25,8 @@ def usr_pedir_input():
     while True:
         try:
             
-            usr_f = int(input("Ingresa la fila: "))
             usr_c = int(input("Ingresa la columna"))
+            usr_f = int(input("Ingresa la fila: "))
         except ValueError:
             print("Ingresa numeros.")
             continue
